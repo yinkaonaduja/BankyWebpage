@@ -1,0 +1,123 @@
+body {
+	background-color: black;
+  color: white;
+  font-family: Calibri;
+  font-size: 14px;
+}
+p{
+	color: white;
+	text-align: center;
+  font-size: 8px;
+  font-family: Arial;
+
+}
+
+.container{
+  width:auto;
+  margin:auto;
+  overflow:hidden;
+}
+header{
+  background:black;
+  color: white;
+  font-family: Eurostile;
+  font-size: 17px;
+  padding-top:30px;
+  min-height:70px;
+  /*border-bottom:white 10px solid;*/
+  }
+
+ header ul{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+header a{
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0px 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#d1cab1;
+  font-family: Eurostile;
+}
+footer{
+  padding:5px;
+  margin-top:20px;
+  color:#ffffff;
+  text-align: center;
+  font-family: Calibri;
+  text-transform: uppercase;
+  font-size: 9px;
+}
+div.gallery {
+  border: 1px solid black;
+}
+
+div.gallery:hover {
+  border: 4px solid white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

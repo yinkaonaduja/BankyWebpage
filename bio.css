@@ -1,0 +1,87 @@
+body{
+	background-color: black;
+}
+h1 {
+	color: #ecefb6;
+	font-family: Eurostile;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+p {
+	color: white;
+	font-family: Calibri;
+	font-size: 13px;
+	text-align:center;
+}
+.container{
+min-height:100px;
+  background:url('../img/showcase.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+}
+footer{
+  padding:5px;
+  margin-top:20px;
+  color:#ffffff;
+  text-align: center;
+  font-family: Eurostile;
+  font-size: 12px;
+}
+header{
+  background:black;
+  color: white;
+  font-family: Eurostile;
+  font-size: 17px;
+  padding-top:30px;
+  min-height:70px;
+  /*border-bottom:white 10px solid;*/
+  }
+
+ header ul{
+ 	margin: 0px;
+ 	padding: 0px;
+ }
+
+header a{
+  color:white;
+  text-decoration:none;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0px 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float: right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#e8491d;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#d1cab1;
+  font-family: Eurostile;
+}
+footer{
+  padding:5px;
+  margin-top:20px;
+  color:#ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Calibri;
+  font-size: 9px;
+}
